@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Market place</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-    <link rel="stylesheet" href="index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Indie+Flower&family=Lobster+Two:ital@1&family=Montserrat+Alternates:wght@300;600&family=Neonderthaw&family=Smooch+Sans:wght@100&display=swap" rel="stylesheet">
@@ -300,11 +299,11 @@
          nextButton.addEventListener('click', e => {
              const currentSlide = track.querySelector('.current-slide');
              const nextSlide = currentSlide.nextElementSibling;
-             const currentDot = dotsNav.querySelector('.current-slide');
-             const nextDot = currentDot.nextElementsibling;  
+             ;
+             
 
              moveToSlide(track, currentSlide, nextSlide);
-             updateDots(currentDot, Dot);
+             
 
 
 
