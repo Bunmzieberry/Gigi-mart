@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Market place</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Indie+Flower&family=Lobster+Two:ital@1&family=Montserrat+Alternates:wght@300;600&family=Neonderthaw&family=Smooch+Sans:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <script src="https://kit.fontawesome.com/b080556245.js" crossorigin="anonymous"></script>
+    
+
+</head>
+<body>
+    
+
+    <header>
+
+        <a href="#" class="logo"><span class="foodies">GiGi</span> Market</a>
+
+        <nav class="navbar">
+            <input type="text" class="find" class="fas fa-search" placeholder="Find me..." class="fas fa-search">
+        </nav>
+
+        <div class="icons">
+            <div class="tooltip"><a href="#" class="fas fa-shopping-cart"></a><span class="tooltiptext">saved</span></div>
+            <div class="tooltip"><a href="#" class="fas fa-search"></a> <span class="tooltiptext">Search</span></div>
+            <div class="tooltip"><a href="#" class="fas fa-bars"></a> <span class="tooltiptext">Advert</span></div>
+            <div class="tooltip"><a href="#" class="fas fa-heart"></a> <span class="tooltiptext">Service</span></div>
+             
+            
+        </div>
+
+
+        <div class="dropdown">
+            <div id="profile"><i class="fas fa-user" aria-hidden="true" ></i></div>
+            <div class="dropdown-content">
+                <div id="dropmenu">
+                    <div><a href="#" id="drop-icon"><i class="fas fa-user" ></i>my page</a></div>
+                    <div><a href="#">Performance</a></div>
+                    <div><a href="#"><i class="fa fa-diamond" aria-hidden="true"></i>My balance</a></div>
+                    <div><a href="#"><i class="fa fa-cog" aria-hidden="true"></i>Settings</a></div>
+                    <div><a href="#"><i class="fa fa-sign-out" aria-hidden="true"></i>Log out</a></div>
+                </div>
+                
+            </div>
+        </div>
+        <a href="#" class="btn">SELL</a>
+
+        <form action="" id="search-form">
+            <input type="search" placeholder="search here..." name="" id="search-box">
+            <label for="search-box" class="fas fa-search"></label>
+            <i class="fas fa-times" id="close"></i>
+        </form>
+
+    </header>
+
+    <!-- header section ends-->
+
+    <!-- search form  -->
+
+    
+    <!-- header section ends-->
+    <div class="margin"></div>
+   <!-- dishes section starts  -->
+
+
+    <section>
+        <div class="carousel">
+            <button class="carousel__button carousel__button--left">
+                <img src="./image/newleft.png">
+            </button>
+    
+    
+            <div class="carousel__track-container">
+                <ul class="carousel__track">
+                    <li class="carousel__slide current-slide">
+                        <img src="./image/laptopbag.jpg" alt="" class="carousel__image">
+                    </li>
+                    <li class="carousel__slide">
+                        <img src="./image/men shoe.jpg" alt="" class="carousel__image">
+                    </li>
+                    <li class="carousel__slide">
+                        <img src="./image/blouse3.jpg" alt="" class="carousel__image">
+                    </li>
+                    <li class="carousel__slide">
+                        <img src="./image/bycicle.avif" alt="" class="carousel__image">
+                    </li>
+                </ul>
+            </div>
+    
+    
+            <button class="carousel__button carousel__button--right">
+                <img src="./image/newright.png" alt="">
+            </button>
+            <div class="carousel__nav">
+               
+                <button class="carousel__indicator current-slide"></button>
+                
+                
+            </div>
+        </div>
+    </section>
+   
+
+    
+    
+    <section class="dishes" id="dishes" id="myFrom">
+
+        <h3 class="sub-heading"> Market place </h3>
+        <h1 class="heading">  </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="./image/blouse3.jpg" alt="not found">
+                <div class="pricing">
+                    <h3>Blouse</h3>
+                    <span id="discount">&#x20A6;4,980</span><span>&#x20A6;2,980</span>
+                    <p>5%off</p>
+                </div>
+                <a href="cart.html" class="btn">add to cart</a>
+            </div>
+
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="./image/cars.avif" alt="">
+                <div class="pricing">
+                    <h3>Cars</h3>
+                    <span id="discount">&#x20A6;4,980</span><span>&#x20A6;2,980</span>
+                    <p>5%off</p>
+                </div>
+                <a href="cart2.html" class="btn">add to cart</a>
+            </div>
+
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="./image/bycicle.avif" alt="">
+                <div class="pricing">
+                    <h3>Bycicle</h3>
+                    <span id="discount">&#x20A6;4,980</span><span>&#x20A6;2,980</span>
+                    <p>5%off</p>
+                </div>
+                <a href="cart3.html" class="btn">add to cart</a>
+            </div>
+
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="./image/makeupkit.avif" alt="">
+                <div class="pricing">
+                    <h3>Makeup kit</h3>
+                    <span id="discount">&#x20A6;4,980</span><span>&#x20A6;2,980</span>
+                    <p>5%off</p>
+                </div>
+                <a href="cart4.html" class="btn">add to cart</a>
+            </div>
+
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="./image/laptops.avif" alt="">
+                <div class="pricing">
+                    <h3>Laptop</h3>
+                    <span id="discount">&#x20A6;4,980</span><span>&#x20A6;2,980</span>
+                    <p>5%off</p>
+                </div>
+                <a href="cart5.html" class="btn">add to cart</a>
+            </div>
+
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="./image/redshoe.avif" alt="">
+                <div class="pricing">
+                    <h3>Shoe</h3>
+                    <span id="discount">&#x20A6;4,980</span><span>&#x20A6;2,980</span>
+                    <p>5%off</p>
+                </div>
+                <a href="cart6.html" class="btn">add to cart</a>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section>
+        <div class="home">
+            <img src="./image/girls.png" class="footer-img">
+        </div>
+         
+    </section>
+
+
+     <!--Footer Start-->
+
+     <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>locations</h3>
+                <a href="#">Nigeria</a>
+                <a href="#">Ghana</a>
+                <a href="#">London</a>
+                <a href="#">USA</a>
+                <a href="#">Kenya</a>
+            </div>
+
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#">home</a>
+                <a href="#">dishes</a>
+                <a href="#">about</a>
+                <a href="#">menu</a>
+                <a href="#">reivew</a>
+                <a href="#">order</a>
+            </div>
+
+            <div class="box">
+                <h3>contact info</h3>
+                <a href="#">+2348065485204</a>
+                <a href="#">+2349035468217</a>
+                <a href="#">me@gmail.com</a>
+                <a href="#">me@gmail.com</a>
+                <a href="#">Lagos Island, Nigeria - 100001</a>
+            </div>
+
+            <div class="box">
+                <h3>follow us</h3>
+                <a href="#">facebook</a>
+                <a href="#">twitter</a>
+                <a href="#">instagram</a>
+                <a href="#">linkedin</a>
+            </div>
+
+        </div>
+
+        <div class="credit"> copyright @ 2022 by <span>Bunix</span> </div>
+
+    </section>
+
+    <!--Footer end-->
+    
+    
+
+
+    <script>
+        const track = document.querySelector('.carousel__track');
+        const slides = Array.from(track.children);
+        const nextButton = document.querySelector('.carousel__button--right');
+        const prevButton = document.querySelector('.carousel__button--left');
+        const dotsNav = document.querySelector('.carousel__nav');
+        const dots = Array.from(dotsNav.children);
+
+        const slideWidth = slides[0].getBoundingClientRect().width;
+        //console.log(slideWidth);
+
+        //arrange the slides next to one another
+        // slides[0].style.left = slideWidth * 0 + 'px';
+        // slides[1].style.left = slideWidth * 1 + 'px';
+        // slides[2].style.left = slideWidth * 2 + 'px';
+
+
+        const setSlidePosition = (slide, index) => {
+            slide.style.left = slideWidth * index + 'px';
+        };
+         slides.forEach(setSlidePosition);
+
+         const moveToSlide = (track, currentSlide, targetSlide) =>{
+            track.style.transform = 'translateX(-' + targetSlide.style.left + ')';
+            currentSlide.classList.remove('current-slide');
+            targetSlide.classList.add('current-slide');
+         }
+
+         const updateDots = (currentDot, targetDot) => {
+            currentDot.classList.remove('current-slide');
+             targetDot.classList.add('current-slide');
+         }
+
+
+         //when i click left, move slides to the left
+         prevButton.addEventListener('click', e =>{
+            const currentSlide = track.querySelector('.current-slide');
+            const prevSlide = currentSlide.previousElementSibling;
+
+             moveToSlide(track, currentSlide, prevSlide)
+         });
+
+         //when i click right, move slides to the right
+         nextButton.addEventListener('click', e => {
+             const currentSlide = track.querySelector('.current-slide');
+             const nextSlide = currentSlide.nextElementSibling;
+             const currentDot = dotsNav.querySelector('.current-slide');
+             const nextDot = currentDot.nextElementsibling;  
+
+             moveToSlide(track, currentSlide, nextSlide);
+             updateDots(currentDot, Dot);
+
+
+
+             
+         })
+
+         dotsNav.addEventListener('click', e =>{
+             //what indicator was clicked on?
+             const targetDot = e.target.closest('button');
+             
+
+        
+             if (!targetDot) return;
+
+             const currentSlide = track.querySelector('.current-slide');
+             const currentDot = dotsNav.querySelector('.current-slide');
+             const targetIndex = dots.findIndex(dot => dot === targetDot);
+             const targetSlide = slides[targetIndex];
+
+             moveToSlide(track, currentSlide, targetSlide);
+
+
+             currentDot.classList.remove('current-slide');
+             targetDot.classList.add('current-slide');
+             updateDots(currentDot, targetDot);
+
+             
+             
+         })
+
+    </script>
+</body>
+</html>
